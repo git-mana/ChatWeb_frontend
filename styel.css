@@ -1,0 +1,647 @@
+*
+{
+    padding: 0;
+    margin: 0;
+} 
+body{
+   overflow: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 9px;
+    height: auto;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #bdcbdf;
+    border-radius: 5px;
+  }
+.webdivision
+{
+    
+}
+.leftside
+{
+    width: 27%
+}
+.rightside
+{
+    width: 73%;
+    
+    
+}
+.profile_popup_box
+{
+    z-index: 1;
+    margin: 0px 1px;
+    width: 27%;
+    height: 99vh;
+    /* border:3px solid; */
+    background-color:#e7eaec; ;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+/* text-align: center; */
+/* padding: 10px 10px; */
+    transform: translate(-100%,-0%)  ;
+    /* box-shadow: 0px 0px 5px 0.5px #336737; */
+    /* visibility: hidden;                     */
+    transition: transform 0.3s, left 0.3s;
+}
+
+.open_profile_popup{
+left: 28.5%;
+visibility: visible;
+transform: translate(-107%, -0%);
+    }
+
+.profile{
+    height:15vh;
+    background-color: rgb(12, 94, 218);
+}
+.profile_box_photo{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* margin: 0px 0px; */
+position: absolute;
+right: 28.9%;
+
+top: 150px;
+    /* color: black;
+    border :2px solid red; */
+}
+.bgcolor_profilebox_photo{
+    
+    height: 275px;
+}
+.profile_box_photo>img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.namelabel_profilebox{
+    /* border: 2px solid; */
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.name_heading{
+    position: absolute;
+    left: 5%;
+    top: 12%;
+    font-family: Poppins;
+    font-weight: 350px;
+    font-size: 12px;
+    color: rgb(12, 94, 218);
+}
+.name_label_2ndrow{
+    position: absolute;
+    margin: 39px 0px;
+    left: 5%;
+
+}
+.name_label_2ndrow>input{
+    width: 23.5vw;
+    position: absolute;
+    padding: 4.5px;
+    border-style: none;
+    box-shadow: 0px 0.5px 0px 0.03px #4b67a0;
+}
+.name_label_2ndrow img{
+    position: absolute;
+    margin: 0.4px 0 0;
+    object-fit: cover;
+cursor: pointer;
+}
+
+
+
+.descriptionl_profilebox{
+    /* border: 2px solid purple; */
+position: absolute;
+width: 100%;
+top: 69%;
+}
+.description{
+    color:#75787a;
+    text-align: initial;
+position: absolute;
+top: -9vh;
+left: 1.5vw;
+}
+
+
+.pen_ticksvg{
+    /* border: 2px solid; */
+    width: 25px;
+    height: 24px;
+    z-index: 1;
+    position: absolute;
+    margin: 0.4px 0 0 307px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.about_profilebox{
+    /* border: 2px solid; */
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+    margin: 170px 0;
+    background-color: #fff;
+}
+
+.about_heading{
+    position: absolute;
+    left: 5%;
+    top: 12%;
+    font-family: Poppins;
+    font-weight: 350px;
+    font-size: 12px;
+    color: rgb(12, 94, 218);
+}
+.about_label_2ndrow{
+    position: absolute;
+    margin: 39px 0px;
+    left: 5%;
+
+}
+.about_label_2ndrow>input{
+    width: 23.5vw;
+    position: absolute;
+    box-shadow: 0px 0.5px 0px 0.03px #4b67a0;
+    padding: 4.5px;
+    border-style: none;
+}
+.about_label_2ndrow img{
+    position: absolute;
+    margin: 0.4px 0 0;
+    object-fit: cover; 
+    cursor: pointer;       
+    
+}
+.ticksvg{
+    visibility: hidden;
+    
+}
+.ticksvg2{
+    visibility: hidden;
+}
+
+.appear_tick{
+    visibility: visible;
+    
+}
+.hide_pen{
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+.profile span{
+  margin: 14% 7% 0 4%;
+color: #fff;
+font-family: Poppins;
+font-weight: 450;
+}
+
+.profilephoto{
+margin: 0 203px 0 0;
+}
+
+
+
+
+.profilephoto_radius
+{
+border-radius: 50%;
+margin: 2px 4px;
+
+}
+
+.profilephoto_radius >img
+{
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    object-position: center;
+    height: 040px;
+    width: 40px;
+}
+.right_header_profilephoto >img
+{
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    object-position: center;
+    height: 040px;
+    width: 40px;
+}
+.leftheader{
+    gap: 190px;
+}
+.leftheader_svgs> span{
+    gap: 20px;
+    align-items: center;
+}
+.leftheader_svgs> span div{
+margin: 9.9px 0;
+
+
+}
+.leftside
+{
+    flex-direction: column;
+}
+.search_field
+{
+    position: absolute;
+    left: 1%;
+}
+.search_field>input
+{
+    padding: 8px 67% ;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #e6effa;
+}
+.search_bar>img{
+    margin: 0 0 0 22px;
+}
+.search_hamburger
+{
+   margin: 4.9px 0 0 375px;
+}
+.search_bar{
+    margin: 5px 1px;
+}
+.search_field>input::placeholder
+{
+    color:#8192a5 ;
+    font-size: small;
+}
+.photoradius{
+    border-radius: 50%;
+    height: 49px;
+    width: 49px;
+}
+.photoradius>img
+{
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+.chat_account_lists{
+    height: 87vh;
+    overflow: scroll;
+}
+.chat_account_lists div:hover{
+    background-color: #e4ecf7;
+}
+
+
+.account1{
+    margin: 1.8px 8px;
+    box-shadow: 0 -1.5px 0 0px #e4ecf7;
+padding: 9px 0px ;
+}
+.account_info2rows {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.account_info2rows div :nth-child(2){
+    margin: 0 0 0 160px;
+    font-size: small;
+    color: #667781;
+}
+.account_part2{
+    margin: 4px 0 0 20px;
+}
+.chat_account_lists
+{
+    margin: 8px 0;
+}
+.first_row:nth-child(1){
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    font-size: 14px;
+}
+
+
+/* 1.right side header */
+/* 2.right header svgs */
+
+/* 3. right footer */
+/* 3.1 right footer plus svg */
+/* 4. right wallper chatting */
+/* 5. chat lists mein hover krne se jo down arrow ata ha */
+/* 6. contact info box */
+
+
+
+/* 1. */
+.right_side_header{
+width: 100%;
+height:auto;
+/* border: 2px solid; */
+background-color: #e4ecf7;
+}
+.right_header_contact_info{
+    flex-direction: column;
+    margin: 5px 59px;
+    position: absolute;
+    /* gap: 2px; */
+
+}
+.phone_number{
+    font-family: poppins;
+    font-size: 13.5px;
+}
+.contact_see_details{
+font-family: Poppins;
+color:#8696a0;
+font: 100;
+font-size: 12px;
+}
+
+/* 2. */
+.right_header_svgs {
+    position: absolute;
+    left: 94%;
+    top: 1.4%;
+    gap: 19px;
+}
+.right_header_svgs div img{
+   height: 26px;
+   
+}
+
+/* 3. */
+.rightside_footer{
+    position: absolute;
+    top: 93%;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid; */
+    background-color: #e4ecf7;;
+}
+
+.right_footer_input input{
+    margin: 5.5px 1px;
+    position: absolute;
+    width: 62%;
+    padding: 13px;
+    border-radius: 6px;
+    border-style: none;
+}
+.footer_svgs {
+    gap: 13px;
+    margin: 15px 8px
+}
+.mic_svg{
+    margin: 15px 8px;
+    position: absolute;
+    /* align-self: flex-end; */
+    left: 68.7%;
+
+}
+.right_footer_input input::placeholder{
+   font-size: 13px;
+font-family: Poppins;
+   color: #54656f;
+}
+/* 3.1 */
+.plus_svg>img{
+    transition: all 0.4s;
+}
+.plus_animation>img{
+    transform: rotate(133deg);
+}
+.plus_popup{
+    width: 11vw;
+    background-color: red;
+    height: 34px;
+    position: absolute;
+    top: -7px;
+    left: -3px;
+    border-radius: 8px;
+    padding: 0px;
+    transform: translate(-17%, 0%) scale(0.1);
+    /* transform: scale(0.1); */
+    transition: transform 0.4s, top 0.4s;
+    visibility: hidden;
+    z-index: 1;
+}
+.appear_plus_popup
+{
+    transform: translate(23%, 0%) scale(1);
+    visibility: visible;
+    top: -34px;
+    /* transform: scale(1); */
+}
+
+
+
+/* 4. */
+.wallpaper img{
+    opacity: 0.10;
+}
+
+/* 5 */
+.downarrow img{
+    width: 15px;
+    height: auto;
+    margin: 0 0 0 5px;
+    /* visibility: visible; */
+}
+
+/* 6. */
+.contact_info{
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+    border: 2px solid purple;
+    position: absolute;
+    background-color: #e4ecf7;
+    top: 0;
+    left: 74.7%;
+    transform: translate(100%,0%)  ;                    
+    transition: transform 0.3s;
+
+}
+.open_contact_info{
+    transform: translate(0%,0%)  ; 
+}
+
+
+
+
+.header_contact_info{
+    position:absolute;
+    width: 100%;
+    
+    /* background-color: yellow; */
+    height: 6%;
+    gap: 50px;
+}
+.header_child{
+position: absolute;
+}
+.header_contact_info img{
+    left:7%;
+    top: 13px;
+}
+.header_contact_info >span{
+    top: 13px;
+    left: 18%;
+    font-family: Poppins;
+    font-size: medium;
+    font-weight: 300;
+}
+.photo_contact_info{
+    background-color: white;
+    position: absolute;
+    width: 54%;
+    border-radius: 50%;
+    top: 9%;
+    left: 21.5%;
+    height: 29%;
+    flex-direction: column;
+    box-shadow: 0px 2.5px 8px 1px #b4cdd4;
+    position: absolute;
+    width: 54%;
+    border-radius: 50%;
+    top: 9%;
+    left: 21.5%;
+    height: 29%;
+    flex-direction: column;
+    box-shadow: 0px 2.5px 8px 1px #b4cdd4;
+}
+ .photo_contact_info>img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+.photo_contact_info>span{
+    font-family: poppins;
+    font-size: 27px;
+    font-weight: 350;
+    position: absolute;
+    top: 106%;
+    left: 32%;
+}
+.about_contact_info{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    top: 49.5%;
+ flex-direction: column;
+    height: 11%;
+    box-shadow:0px 2.5px 8px 1px #b4cdd4;
+}
+.about{
+    position: absolute;
+}
+.about_text{
+    top: 12%;
+    left: 11.5%;
+    font-family: poppins;
+   color: #9aa3b1;
+   font-weight: 400;
+   font-size: medium;
+
+}
+.about_from_input{
+    
+}
+
+.media_links_docs_contact_info{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    top: 62.2%;
+    height: 20%;
+    flex-direction: column;
+    box-shadow:0px 2.5px 8px 1px #b4cdd4;
+}
+.media{
+    position: absolute;
+}
+.first_row_media{
+position: absolute;
+width: 100%;
+top: 6%;
+}
+.media_links_text{
+    top: 12%;
+    left: 11.5%;
+    font-family: poppins;
+   color: #9aa3b1;
+   font-weight: 400;
+   font-size: medium;
+   position: absolute;
+}
+.forward_arrow{
+    top: 12%;
+    left: 90%;
+   position: absolute;
+}
+.images_media{
+
+}
+.delete_chat{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    top: 84.2%;
+    height: 14%;
+    box-shadow:0px 2.5px 8px 1px #b4cdd4;
+}
+.delete_box {
+    position: absolute;
+}
+.dustbin{
+    top: 12%;
+    left: 11.5%;
+}
+.deletechat_text{
+    top: 11%;
+    left: 21%;
+    font-family: poppins;
+   color: red;
+   font-weight: 200;
+   font-size: large;
+}

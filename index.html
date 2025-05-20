@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application | M. Aman Arshad | Js implementation</title>
+    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="utility.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Style+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="fullweb"> 
+        <div class="webdivision flex">
+            <div class="leftside border flex">
+                <header class="leftheader flex header_color">
+                    <div class="photo">
+                        <div class="profilephoto_radius">
+                            
+                        </div>
+                    </div>
+                          <div class="leftheader_svgs">
+                            <span class="flex item_center">
+                                <div class="svg1 "><img src="leftheader_svg1.svg" alt=""></div>
+                                <div class="svg2"><img src="leftheader_svg2.svg" alt=""></div>
+                                <div class="svg3"><img src="leftheader_svg3.svg" alt=""></div>
+                                <div class="svg4"><img src="leftheader_svg4.svg" alt=""></div>
+                                <div class="svg5"><img src="leftheader_svg5.svg" alt=""></div>
+                            </span>
+                          </div>
+                </header>
+                <div class="search_bar flex">
+                    <img src="searchbutton.svg" alt="" style="z-index: 1;">
+                    <div class="search_field">
+                        <input type="text" class="search" placeholder="Search Chats/Accounts">
+                    </div>
+                    <div class="search_hamburger"><img class="svgs_color" src="search_hamburger.svg" alt=""></div>
+                </div>
+               <div class="chat_account_lists">
+                <div  class="account1 flex">
+                    <div class="account_part1"><div class="photoradius">
+                    </div></div>
+                    <div class="account_part2">
+                        <span class="account_info2rows flex">
+                            <div class="first_row flex"><div>
+                                <span>+92 98324 324 (YOU)</span>
+                                <span>time</span>
+                            </div></div>
+                            <div class="2ndrow flex">
+                                <span style="color: #8696a0;">last message</span><span>number of msgs</span><span class="downarrow"></span>
+                            </div>
+                     </span></div>
+                </div>
+                <div  class="account1 flex">
+                    <div   class="account_part1"><div class="photoradius"><img name="account_lists_toclick" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy2E_fhZuVPYpTIynMPbm8H6C-ehx9aPOAphnhdYH1rw&s" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div>
+                    <div class="account_part2">
+                        <span class="account_info2rows flex">
+                            <div class="first_row flex"><div>
+                                <span>+92 98324 324</span>
+                                <span>time</span>
+                            </div></div>
+                            <div class="2ndrow flex">
+                                <span style="color: #8696a0;">last message</span><span>number of msgs</span><span class="downarrow"></span>
+                            </div>
+                     </span></div>
+                </div>
+                <div  class="account1 flex" >
+                    <div   class="account_part1"><div class="photoradius"><img name="account_lists_toclick" src="https://i.pinimg.com/236x/ae/3e/eb/ae3eeba2b44840e4b4415f9c651c1fba.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div>
+                    <div class="account_part2">
+                        <span class="account_info2rows flex">
+                            <div class="first_row flex"><div>
+                                <span>+92 98324 324</span>
+                                <span>time</span>
+                            </div></div>
+                            <div class="2ndrow flex">
+                                <span style="color: #8696a0;">last message</span><span>number of msgs</span><span class="downarrow"></span>
+                            </div>
+                     </span></div>
+                </div>
+                <div  class="account1 flex">
+                    <div   class="account_part1"><div class="photoradius"><img  name="account_lists_toclick" src="https://t3.ftcdn.net/jpg/05/92/31/22/360_F_592312247_mHlTgYGrMFtjABNHTXCKl931E6fEmMgQ.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div>
+                    <div class="account_part2">
+                        <span class="account_info2rows flex">
+                            <div class="first_row flex"><div>
+                                <span>+92 98324 324</span>
+                                <span>time</span>
+                            </div></div>
+                            <div class="2ndrow flex">
+                                <span style="color: #8696a0;">last message</span><span>number of msgs</span><span class="downarrow"></span>
+                            </div>
+                     </span></div>
+                </div>
+                <div  class="account1 flex">
+                    <div   class="account_part1"><div class="photoradius"><img name="account_lists_toclick" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8n5hEg2iFXNBF3oYkZXIGbC6qzHcxmUOoHjAoMWdq3A&s" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div>
+                    <div class="account_part2">
+                        <span class="account_info2rows flex">
+                            <div class="first_row flex"><div>
+                                <span>+92 98324 324</span>
+                                <span>time</span>
+                            </div></div>
+                            <div class="2ndrow flex">
+                                <span style="color: #8696a0;">last message</span><span>number of msgs</span><span class="downarrow"></span>
+                            </div>
+                     </span></div>
+                </div>
+                <div  class="account1 flex">
+                    <div   class="account_part1"><div class="photoradius"><img name="account_lists_toclick" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBDL-6cLWvXRbiXoyGOwJbxNrfLihO7bXe9K0mGy0Dqw&s" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div>
+                    <div class="account_part2">
+                        <span class="account_info2rows flex">
+                            <div class="first_row flex"><div>
+                                <span>+92 98324 324</span>
+                                <span>time</span>
+                            </div></div>
+                            <div class="2ndrow flex">
+                                <span style="color: #8696a0;">last message</span><span>number of msgs</span><span class="downarrow"></span>
+                            </div>
+                     </span></div>
+                </div><div  class="account1 flex" >
+                    <div   class="account_part1"><div class="photoradius"><img name="account_lists_toclick" src="https://st2.depositphotos.com/3096625/9698/v/450/depositphotos_96987240-stock-illustration-logo-dp-letter-monogram.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div>
+                    <div class="account_part2">
+                        <span class="account_info2rows flex">
+                            <div class="first_row flex"><div>
+                                <span>+92 98324 324</span>
+                                <span>time</span>
+                            </div></div>
+                            <div class="2ndrow flex">
+                                <span style="color: #8696a0;">last message</span><span>number of msgs</span><span class="downarrow"></span>
+                            </div>
+                     </span></div>
+                </div><div  class="account1 flex">
+                    <div   class="account_part1"><div class="photoradius"><img name="account_lists_toclick" src="https://media-mct1-1.cdn.whatsapp.net/v/t61.24694-24/74785766_158640288723675_1701816225317158744_n.jpg?stp=dst-jpg_s96x96&amp;ccb=11-4&amp;oh=01_AdSpZjc-zc0PxmGhmr_Yd_OzAZSgjmRyLlq6XvXqPe1k1Q&amp;oe=65DFE56D&amp;_nc_sid=e6ed6c&amp;_nc_cat=105" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div>
+                    <div class="account_part2">
+                        <span class="account_info2rows flex">
+                            <div class="first_row flex"><div>
+                                <span>+92 98324 324</span>
+                                <span>time</span>
+                            </div></div>
+                            <div class="2ndrow flex">
+                                <span style="color: #8696a0;">last message</span><span>number of msgs</span><span class="downarrow"></span>
+                            </div>
+                     </span></div>
+                </div><div  class="account1 flex">
+                    <div   class="account_part1"><div class="photoradius"><img name="account_lists_toclick" src="https://img.freepik.com/free-photo/cartoon-man-wearing-glasses_23-2151136839.jpg" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div>
+                    <div class="account_part2">
+                        <span class="account_info2rows flex">
+                            <div class="first_row flex"><div>
+                                <span>+92 98324 324</span>
+                                <span>time</span>
+                            </div></div>
+                            <div class="2ndrow flex">
+                                <span style="color: #8696a0;">last message</span><span>number of msgs</span><span class="downarrow"></span>
+                            </div>
+                     </span></div>
+                </div><div  class="account1 flex">
+                    <div   class="account_part1"><div class="photoradius"><img name="account_lists_toclick" src="https://media-mct1-1.cdn.whatsapp.net/v/t61.24694-24/74785766_158640288723675_1701816225317158744_n.jpg?stp=dst-jpg_s96x96&amp;ccb=11-4&amp;oh=01_AdSpZjc-zc0PxmGhmr_Yd_OzAZSgjmRyLlq6XvXqPe1k1Q&amp;oe=65DFE56D&amp;_nc_sid=e6ed6c&amp;_nc_cat=105" alt="" draggable="false" class="g0rxnol2 f804f6gw ln8gz9je ppled2lx gfz4du6o r7fjleex g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb jpthtbts lyqpd7li bs7a17vp csshhazd _11JPr" tabindex="-1" style="visibility: visible;"></div></div>
+                    <div class="account_part2">
+                        <span class="account_info2rows flex">
+                            <div class="first_row flex"><div>
+                                <span>+92 98324 324</span>
+                                <span>time</span>
+                            </div></div>
+                            <div class="2ndrow flex">
+                                <span style="color: #8696a0;">last message</span><span>number of msgs</span><span class="downarrow"></span>
+                            </div>
+                     </span></div>
+                </div>
+
+            </div>
+         <div class="profile_popup_container">
+                 <div class="profile_popup_box">
+                 <header class="profile flex">
+                     <span class="close_profile_box"><img src="backarrow_white.svg" alt=""></span>
+                    <span>Profile</span>
+                 </header>
+                 <div class="profile_box_body">
+                    <div class="bgcolor_profilebox_photo">
+                    <span class="profile_box_photo">
+                       <img src="profile_pic_overall.JPG" name="profile_pic_overall" alt="">
+                    </span></div>
+                    <div class="namelabel_profilebox flex">
+                        <span class="name_heading">Your name</span>
+                        <span class="name_label_2ndrow flex">
+                            <input  class="profile_input1" type="text">
+
+                          <div class="pen_ticksvg" onclick="pen_tick_swap()"> 
+                                 <div class="pensvg"><img name="pen_svg" src="pen.svg" alt="" style="z-index: 1;"></div>
+                                 <div class="ticksvg" ><img src="small_tick.svg" alt="" style="z-index: 1;" class="small_tick"></div>
+                           </div>
+                        </span>
+                    </div>
+                    <div class="descriptionl_profilebox">
+                        <span class="description">This is not your username or pin. This name will be visible to your WhatsApp contacts.</span>
+                    </div>
+                    <div class="about_profilebox flex">
+                        <span class="about_heading">About</span>
+                        <span class="about_label_2ndrow flex">
+                            <input  class="profile_input2" type="text">
+
+                            <div class="pen_ticksvg" onclick="pen_tick_swap2()">
+                             <div class="pensvg2"> <img src="pen.svg" alt="" style="z-index: 1;"></div>
+                            <div class="ticksvg2"><img src="small_tick.svg" alt="" style="z-index: 1;" ></div>
+                          
+                        </span>
+                   </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+        <div class="rightside border">
+            <header class="right_side_header flex" >
+                <div class="right_header_profilephoto ">
+                    <!-- <img src="profile_pic_overall.JPG" name="profile_pic_overall" alt=""> -->
+                </div>
+                <div class="right_header_contact_info flex">
+                    <span class="phone_number"></span>
+                    <span class="contact_see_details">Click here to see info</span>
+                </div>
+                <div class="right_header_svgs flex">
+<div class="right_search_svg"><img src="searchbutton.svg" alt=""></div>
+<div class="right_hamburger_svg"><img src="leftheader_svg5.svg" alt=""></div>
+                </div>
+            </header>
+
+<div class="wallpaper">
+<img src="https://cdn.wallpapersafari.com/90/68/OqZHUB.jpg" alt="">
+</div>
+
+            <footer class="rightside_footer flex">
+                <div class="footer_svgs flex">
+                    <span class="emoji_svg"><img src="emoji.svg" alt=""></span>
+                    <span class="plus_svg"><img src="plus.svg" alt="">
+                        <div class="plus_popup"></div></span>
+                  
+                </div>
+                <div class="right_footer_input"><input type="text" placeholder="Type your message here..."></div>
+                <div class="mic_svg"> <img src="mic.svg" alt=""></div>
+
+            </footer>
+
+            <!-- Contact info box -->
+            <div class="contact_info flex">
+
+                <div class="content_animate_contactinfo">
+            <div class="header_contact_info flex">
+                <img class="header_child to_close_contact_info" src="cross.svg" alt="">
+                <span class="header_child">Contact info</span>
+            </div>
+            <div class="photo_backgroung">
+            <div class="photo_contact_info flex">
+               
+            </div></div>
+            <div class="about_contact_info flex">
+                <span class="about about_text">About</span>
+                <span class="about about_from_input"></span>
+            </div>
+            <div class="media_links_docs_contact_info flex">
+            <div class="media first_row_media flex">
+                <span class="media_links_text">Media, Links and Docs</span>
+                <span class="forward_arrow"><img src="forward_arrow.svg" alt=""></span>
+            </div>    
+            <div class="media images_media"></div>    
+            </div>
+<div class="delete_chat flex">
+    <span class="delete_box dustbin"><img src="dustbin.svg" alt=""></span>
+    <span class="delete_box deletechat_text">Delete chat</span>
+
+</div>
+</div>
+<!-- Contact info box -->
+
+
+            </div>
+
+
+
+        </div>
+<script src="script.js"></script>
+</body>
+</html>
+

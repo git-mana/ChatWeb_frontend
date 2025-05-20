@@ -1,0 +1,20 @@
+.flex
+{
+    display: flex;
+}
+.item_center
+{
+    justify-content: center;
+}
+.border
+{
+    border: 2px solid blue;
+    margin: 1.5px;
+}
+.header_color
+{
+  background-color:  #e4ecf7
+}
+.font{
+    font-family: Poppins;
+}
